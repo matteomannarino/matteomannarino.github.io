@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 
 	html {
 		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 
 body {
@@ -1664,57 +1665,68 @@ input, select, textarea {
 /* additional */
 
 
-.expand-width img {
-	width: 100%;
-	height: auto;
-	max-width: 60%;
-}
-
-#scene .expand-width img {
-	width: 100%;
-	height: auto;
-	max-width: 60%;
-
-}
-
-/* .content-1-li{
+/* .expand-width img {
 	width: 100%;
 	height: auto;
 	max-width: 100%;
 } */
 
+#scene .expand-width img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
 
 
+	@media only screen and (min-width: 480px) {
 
-@media (max-width: 736px) {
+	#scene .expand-width img {
+	  width: 100%;
+		height: auto;
+		max-width: 60%;
+	}
+}
+
+/* @media only screen (max-width: 768px) {
+
+	.expand-width img {
+	  width: 100%;
+		height: auto;
+		min-width: 60%;
+
+	}
+} */
+
+
+/* @media (max-width: 768px) {
 
 	.expand-width img {
 	  width: 100%;
 		height: auto;
 		max-width: 100%;
 
-	}
+	} */
 }
 
 /* title css */
 
-.expand-width-title img {
+/* .expand-width-title img {
 	width: 100%;
 	height: auto;
-	max-width: 60%;
+	max-width: 100%;
 
-}
+} */
 
 
-@media (max-width: 736px) {
+/* @media (max-width: 768px) {
 
 	.expand-width-title img {
 	  width: 100%;
 		height: auto;
-		max-width: 60%;
+		max-width: 100%;
 
 	}
-}
+} */
 
 
 /* .container1 {
